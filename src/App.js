@@ -74,7 +74,7 @@ function App() {
     let signedPayload;
 
     try {
-      // Fuck Nami
+      // Nami workaround ...
       if (walletName === 'nami') {
         signedPayload = await cardano.signData(
           rewardAddress,
